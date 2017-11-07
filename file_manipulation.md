@@ -16,5 +16,10 @@ os.path.isfile()
 os.path.isdir()
 ```
 ---
+* Iterate over files & directories
+```python
+for file in os.listdir(path_to_dir):
+	# do something
+```
 
 ### [Back to Index](readme.md)
